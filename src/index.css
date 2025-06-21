@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+body {
+  font-family: Ralway, sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #1b1523;
+  color: white;
+}
+
+button:focus-visible {
+  outline: 2px solid #f0f;
+  outline-offset: 5px;
+  filter: brightness(140%);
+}
